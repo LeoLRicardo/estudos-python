@@ -1,0 +1,11 @@
+#Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas informações possíveis sobre ele
+nome = input("Qual seu nome?")
+print (f"teu nome é {nome} ")
+print("O tipo primitivo do seu nome é:", type(nome))
+print("É só espaços?", nome.isspace())
+print("É só número?", nome.isnumeric())
+print("É alfabético(letras) ?", nome.isalpha())
+print("É alfanumérico ?", nome.isalnum())
+print("É só Maiúscula ?", nome.isupper())
+print("É só Minúscula ?", nome.islower())
+print("É uma frase capitalizada(Primeira letra maiúscula)?", nome.istitle())
